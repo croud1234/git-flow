@@ -2,13 +2,13 @@
 $val = $argv[1];
 
 if ($val >= 100) {
-  echo '*Too big*';
+  echo 'Too big';
 } elseif ($val % 3 == 0 && $val % 5 == 0) {
-  echo '*FizzBuzz*';
+  echo 'FizzBuzz';
 } elseif ($val % 3 == 0) {
-  echo '*Fizz*';
+  echo 'Fizz';
 } elseif ($val % 5 == 0) {
-  echo '*Buzz*';
+  echo 'Buzz';
 } else {
-  echo "*$val*";
+  echo "$val";
 }
